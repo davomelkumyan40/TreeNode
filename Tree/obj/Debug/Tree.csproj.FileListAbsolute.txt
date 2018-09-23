@@ -1,0 +1,10 @@
+C:\Users\davom\source\repos\Tree\Tree\bin\Debug\Tree.exe.config
+C:\Users\davom\source\repos\Tree\Tree\bin\Debug\Tree.exe
+C:\Users\davom\source\repos\Tree\Tree\bin\Debug\Tree.pdb
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.csprojAssemblyReference.cache
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.Form1.resources
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.Properties.Resources.resources
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.csproj.GenerateResource.cache
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.csproj.CoreCompileInputs.cache
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.exe
+C:\Users\davom\source\repos\Tree\Tree\obj\Debug\Tree.pdb
