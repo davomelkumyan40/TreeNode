@@ -20,23 +20,18 @@ namespace Tree
 
         private void button1_Click(object sender, EventArgs e)
         {
-            treeView1.Nodes.Add(CreateDirectoryN(new DirectoryInfo(@"C:\Users\davom")));
-        }
-
-        private static void DirectList(TreeView view, string path)
-        {
-
+            treeView1.Nodes.Add(CreateDirectoryInNode(new DirectoryInfo(@"C:\Users\davom")));
         }
 
         static List<TreeNode> listNode = new List<TreeNode>();
 
-        private static TreeNode CreateDirectoryN(DirectoryInfo directory)
+        private static TreeNode CreateDirectoryInNode(DirectoryInfo directory)
         {
             var treeNode = new TreeNode(directory.Name);
             try
             {
                 foreach (var dir in directory.GetDirectories())
-                    treeNode.Nodes.Add(CreateDirectoryN(dir));
+                    treeNode.Nodes.Add(CreateDirectoryInNode(dir));
 
                 foreach (var file in directory.GetFiles())
                     treeNode.Nodes.Add(new TreeNode(file.Name));
