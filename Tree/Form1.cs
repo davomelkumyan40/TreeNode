@@ -20,10 +20,8 @@ namespace Tree
 
         private void button1_Click(object sender, EventArgs e)
         {
-            treeView1.Nodes.Add(CreateDirectoryInNode(new DirectoryInfo(@"C:\Users\davom")));
+            treeView1.Nodes.Add(CreateDirectoryInNode(new DirectoryInfo(@"C:\Users")));
         }
-
-        static List<TreeNode> listNode = new List<TreeNode>();
 
         private static TreeNode CreateDirectoryInNode(DirectoryInfo directory)
         {
